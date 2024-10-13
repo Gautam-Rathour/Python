@@ -344,7 +344,7 @@
 
 ###===================================================================================================
 
-# Oprater :- 
+# Oprater In Python :- 
 
 # a,b = 3,7
 # c = True
@@ -359,51 +359,85 @@
 # print(a >> 2)
 
 
-print(26 & 23)
-print(17 | 24)
-print(17 ^ 24)
-print(~45)
-print(68 << 2)
-print(56 >> 3)
+# print(26 & 23)
+# print(17 | 24)
+# print(17 ^ 24)
+# print(~45)
+# print(68 << 2)
+# print(56 >> 3)
 
 
 
 ###===================================================================================================
+## Identity Operators :-
+
+# a = 7
+# b = 7
+
+# print(a is b)
+# # print(a is not  b)
+# # print(a == b)
+
+# print(id(a))
+# print(id(b))
+
+###==========================
+## Membership Operators :-
+
+# name = "saurabh kumar"
+# print("ku" in name)
+
+# print("T" in name)
+# print("T" not in name)
+# print("a" not in name)
+
+# l1 = [4,65,34,9,-2,0,23]
+# print(-7 not in l1)
+
+# weight = int(input('Enter weight in kg:'))
+# height = float(input('Enter height in meter:'))
+
+# bmi = weight / height ** 2
+
+# print(int(bmi))
 
 
+###=============================
+## Round Function :-
 
 
+# print(round(11.5))
+# print(round(12.5))
 
 
+# print(round(674,2))
+# print(round(674,0))
+# print(round(674,-2))
 
+# print(round(665,-1))
+# print(round(675,-1))
 
+# print(round(-8/3))
+# print(round(-1.5))
+# print(round(-8/3,2))
 
+# print(round(6.75,1)) # 6.8
+# print(round(6.85,1)) # 6.8
+# print(round(674.1012,-1)) # 670
+# print(round(1212,-2)) # 1200
 
+# print(round(774,-2))
+# print(type(round(769,-2)))
 
+print(round(-8/3))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(round(-1.5))
 ###===================================================================================================
 
 
+print("hello raju")
+print("hello Mohit")
 
-
-
-
-
-
-
+print("hello soun")
 
 
