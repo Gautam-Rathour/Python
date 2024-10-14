@@ -429,15 +429,72 @@
 # print(round(774,-2))
 # print(type(round(769,-2)))
 
-print(round(-8/3))
+# print(round(-8/3))
+# print(round(-1.5))
+###===================================================================================================
 
-print(round(-1.5))
+# print("hello raju")
+
+name = "Gaurav"
+age = 30
+height = 1.6
+
+print("my name is: "+name, "I am "+ str(age), "years old")
+
+print("My name is: " , name , "I am " , age , "years old" )
+
 ###===================================================================================================
 
 
-print("hello raju")
-print("hello Mohit")
 
-print("hello soun")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
