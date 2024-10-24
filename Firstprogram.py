@@ -435,23 +435,33 @@
 
 # print("hello raju")
 
-name = "Gaurav"
-age = 30
-height = 1.6
+# name = "Gaurav"
+# age = 30
+# height = 1.6
 
-print("\nmy name is: "+ name, "I am "+ str(age), "years old")
+# print("\nmy name is: "+ name, "I am "+ str(age), "years old")
 
-print("My name is: ", name , "I am " , age , "years old" , "My height is " , height , "meter" )
+# print("My name is: ", name , "I am " , age , "years old" , "My height is " , height , "meter" )
 
-print(f"My name is: {name} I am {age} years old. My height is {height} meters\n\n ")
-print(f"Krinshna's Father is {age*2} years old.\n")
+# print(f"My name is: {name} I am {age} years old. My height is {height} meters\n\n ")
+# print(f"Krinshna's Father is {age*2} years old.\n")
 ###===================================================================================================
 
 ###===================================================================================================
 
+age = int(input("Enter your age:"))
 
+years_left = 90 - age
+days_left = years_left * 365
+months_left = years_left * 12
+weeks_left = years_left * 52
 
+print(years_left)
+print(days_left)
+print(months_left)
+print(weeks_left)
 
+print(f"You have {days_left} day, {weeks_left} weeks and {months_left} months left.")
 
 
 
