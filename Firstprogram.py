@@ -456,10 +456,10 @@ days_left = years_left * 365
 months_left = years_left * 12
 weeks_left = years_left * 52
 
-print(years_left)
-print(days_left)
-print(months_left)
-print(weeks_left)
+# print(years_left)
+# print(days_left)
+# print(months_left)
+# print(weeks_left)
 
 print(f"You have {days_left} day, {weeks_left} weeks and {months_left} months left.")
 
