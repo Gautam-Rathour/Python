@@ -449,33 +449,50 @@
 ###===================================================================================================
 ###===================================================================================================
 
-age = int(input("Enter your age:"))
+# age = int(input("Enter your age:"))
 
-years_left = 90 - age
-days_left = years_left * 365
-months_left = years_left * 12
-weeks_left = years_left * 52
+# years_left = 90 - age
+# days_left = years_left * 365
+# months_left = years_left * 12
+# weeks_left = years_left * 52
 
-# print(years_left)
-# print(days_left)
-# print(months_left)
-# print(weeks_left)
+# # print(years_left)
+# # print(days_left)
+# # print(months_left)
+# # print(weeks_left)
 
-print(f"You have {days_left} day, {weeks_left} weeks and {months_left} months left.")
+# print(f"You have {days_left} day, {weeks_left} weeks and {months_left} months left.")
+
+###===================================================================================================
+###===================================================================================================
+
+# Age = int(input("Enter : "))
+
+# if Age > 18: 
+#     print(" He is Adult Boy ")
+#     print("He can play any game")
+# else: 
+#     print("He is not a Adult Boy\n")
 
 ###===================================================================================================
 ###===================================================================================================
 
 
+Num = int(input("Enter a Number : "))
 
+if Num % 2 == 0: 
+    print(Num , " This number is Even ")
+else: 
+    print(Num , " This number is Odd ")
 
+###===================================================================================================
+###===================================================================================================
 
+# Nested if else and else :-
 
+#  jenny's ma'am lectures 
 
-
-
-
-
+# lectures number :--     27
 
 
 
